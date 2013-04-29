@@ -1,0 +1,69 @@
+<!Doctype html>
+<html>
+  <head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="../src/jquery.gridify.js"></script>
+    <style>
+      body {
+        padding-bottom: 100%;
+        margin: 0;
+      }
+      #grid {
+        width: 100%;
+      }
+      .gridItem {
+        float: left;
+        width: 25%;
+      }
+      .gridItem img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+      #page {
+        padding: 20px;
+      }
+      .gridify-viewport {
+        clear: both;
+        display: none;
+        background: #000;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="gridify-viewport new">
+      <div class="gridify-content">
+        <div id="page">
+          <h1>Page title</h1>
+          <img src="http://placehold.it/500X150" alt="">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, ipsum, libero, maiores illo sapiente officiis cumque iste vero natus cum numquam enim ut id odit soluta? Recusandae, natus, earum, saepe, cum quos nesciunt vero error et neque dolorem rem velit cumque assumenda soluta nulla. Quam, enim adipisci tempora excepturi cum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, ipsum, libero, maiores illo sapiente officiis cumque iste vero natus cum numquam enim ut id odit soluta? Recusandae, natus, earum, saepe, cum quos nesciunt vero error et neque dolorem rem velit cumque assumenda soluta nulla. Quam, enim adipisci tempora excepturi cum.</p>
+          <ul>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, iste!</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, iste!</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, iste!</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, iste!</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, iste!</li>
+          </ul>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, corporis, qui, placeat et sequi quod tempora incidunt necessitatibus amet laboriosam mollitia fugiat atque sunt neque officiis quae maiores dicta voluptate dignissimos adipisci aut dolore minus porro illo quo facere voluptatem libero vero dolor quisquam. Doloremque culpa harum ipsum omnis impedit.</p>
+        </div>
+      </div>
+    </section>
+    <div id="grid">
+      <a href="/demo/demo1.html" class="gridItem"><img src="http://placehold.it/320" alt=""></a>
+      <a href="/demo/demo2.html" class="gridItem"><img src="http://placehold.it/320" alt=""></a>
+      <a href="#anchorlink" class="gridItem"><img src="http://placehold.it/320" alt=""></a>
+      <a href="/demo/demo3.html" class="gridItem"><img src="http://placehold.it/320" alt=""></a>
+      <a href="/demo/demo4.html" class="gridItem"><img src="http://placehold.it/320" alt=""></a>
+      <a href="http://dahliacreative.com" class="gridItem"><img src="http://placehold.it/320" alt=""></a>
+      <a href="/demo/demo5.html" class="gridItem"><img src="http://placehold.it/320" alt=""></a>
+      <a href="/demo/demo6.html" class="gridItem"><img src="http://placehold.it/320" alt=""></a>
+    </div>
+    <script>
+      $(function() {
+        $('#grid').gridify();
+      });
+    </script>
+  </body>
+</html>
