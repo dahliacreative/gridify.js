@@ -58,6 +58,17 @@
         }
       });
 
+      // Close grid if adaptive
+      $(window).resize(function() {
+        if(working !== true) {
+          working = true;
+          $('.gridify-loading').removeClass('gridify-loading');
+          $('.gridify-active').removeClass('gridify-active');
+          history.pushState(null, null, initialURL);
+          methods.closeViewport();
+        }
+      });
+
       // Gridify Methods
       var methods = {
 
@@ -66,6 +77,8 @@
           methods.generateGridItems();
           methods.checkViewport();
           methods.browserNav();
+          options.initialize();
+          methods.findLink();
         },
 
         // Check viewport
@@ -89,14 +102,12 @@
         // Bind forward / back buttons
         browserNav: function() {
           $(window).bind('popstate', function() {
-            popped = true;
             if(!popped && location.href === initialURL) {
-              options.initialize();
-            } else if(location.href === initialURL && firstViewport === true) {
+
+            } else if(location.href === initialURL) {
               methods.closeViewport();
-            } else {
-              methods.findLink();
             }
+            popped = true;
           });
         },
 
@@ -120,6 +131,7 @@
           viewport.slideUp(function() {
             viewport.remove();
           });
+          working = false;
         },
 
         // Find link
@@ -127,9 +139,11 @@
           var link      = window.location.pathname,
               gridItem  = $('.gridItem[href="' + link + '"]');
 
-          working = true;
-          gridItem.addClass('gridify-loading');
-          methods.calcPosition(gridItem);
+          if(gridItem.length > 0) {
+            working = true;
+            gridItem.addClass('gridify-loading');
+            methods.calcPosition(gridItem);
+          }
         },
 
         // Calculate viewport position
