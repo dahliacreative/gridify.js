@@ -9,6 +9,7 @@ The plugin:
 * Uses smooth dynamic animations
 * Is SEO freindly
 * Customisable
+* Has initialize and loadedContent callbacks
 * Uses [WaitForImages](https://github.com/alexanderdickson/waitForImages) to allow content to be fully loaded before displaying
 
 Please post your feedback to let me know what you think! I'd love to know if you are using it on your site, tweet me the URL and any comments you have @dahliacreative / #gridifyjs.
