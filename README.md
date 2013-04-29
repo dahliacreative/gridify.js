@@ -1,14 +1,24 @@
 # gridify.js
 
-Retinise.js is a really simple jQuery plugin which 'retinises' your inline images, and because it uses 'data-src' instead of 'src' it means it only ever serves up the image you need, saving you and your users bandwidth. It's really small and really easy, just follow the steps below.
-Please post your feedback to let me know what you think! I'd love to know if you are using it on your site, tweet me the URL and any comments you have @dahliacreative / #retinisejs.
+Gridify.js is a jQuery plugin which creates an AJAX gridsystem similar to that of Google images with some added extras.
+
+The plugin:
+* Uses the HTML 5 History API
+* AJAXes in content
+* Enables functioning forward/back buttons
+* Uses smooth dynamic animations
+* Is SEO freindly
+* Customisable
+* Uses [WaitForImages](https://github.com/alexanderdickson/waitForImages) to allow content to be fully loaded before displaying
+
+Please post your feedback to let me know what you think! I'd love to know if you are using it on your site, tweet me the URL and any comments you have @dahliacreative / #gridifyjs.
 
 
 ## Head
 ```html
 <script src=”/path/to/jquery.js”></script>
 <script src=”/path/to/gridify.js”></script>
-<!--Optional Dependancy-->
+<!--Optional Dependancy by Alexander Dickson-->
 <script src=”/path/to/waitforimages.js”></script>
 ```
 
