@@ -106,6 +106,8 @@
 
             } else if(location.href === initialURL) {
               methods.closeViewport();
+            } else {
+              methods.findLink();
             }
             popped = true;
           });
