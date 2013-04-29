@@ -1,6 +1,6 @@
 # gridify.js
 
-Gridify.js is a jQuery plugin which creates an AJAX gridsystem similar to that of Google images with some added extras.
+Gridify.js an AJAX gridsystem similar to that of Google images with some added extra functionality.
 
 The plugin:
 * Uses the HTML 5 History API
@@ -13,6 +13,8 @@ The plugin:
 * Uses [WaitForImages](https://github.com/alexanderdickson/waitForImages) to allow content to be fully loaded before displaying
 
 Please post your feedback to let me know what you think! I'd love to know if you are using it on your site, tweet me the URL and any comments you have @dahliacreative / #gridifyjs.
+
+#### N.B. gridify.js is currently untested with the history.js polyfill. If you have any success using the fall back script please let me know!
 
 
 ## Head
