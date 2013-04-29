@@ -23,14 +23,14 @@ Please post your feedback to let me know what you think! I'd love to know if you
 <script src=”/path/to/waitforimages.js”></script>
 ```
 
-## GRID HTML
+## Grid HTML
 ```html
 <div id="grid">
   <a href="/demo/demo1.html" class="gridItem"><img src="http://placehold.it/320" alt=""></a>
 </div>
 ```
 
-## CONTENT HTML
+## Content HTML
 ```html
 <section class="gridify-viewport new">
   <div class="gridify-content">
