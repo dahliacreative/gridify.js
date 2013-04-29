@@ -1,3 +1,19 @@
+/*  GRIDIFY.JS ------------------------------------------------------*
+
+  Author:         Simon Sturgess
+                  @dahliacreative
+                  simon@dahliacreative.com
+                  http://www.dahliacreative.com
+          
+  Documentation:  http://www.dahliacreative.com/gridifyjs
+  
+  Release date:   29/04/2013
+  Version:        v.1.0
+  Licensing:      © Copyright 2012 DahliaCreative.
+                  Free to use under the GPLv2 license.
+                  http://www.gnu.org/licenses/gpl-2.0.html
+                  
+*--------------------------------------------------------------------*/
 (function($){
   $.fn.extend({
 
