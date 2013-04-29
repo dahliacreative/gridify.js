@@ -14,7 +14,7 @@ The plugin:
 
 Please post your feedback to let me know what you think! I'd love to know if you are using it on your site, tweet me the URL and any comments you have @dahliacreative / #gridifyjs.
 
-#### N.B. gridify.js is currently untested with the history.js polyfill. If you have any success using the fall back script please let me know!
+##### N.B. gridify.js is currently untested with any History API polyfills. If you have any success using gridify.js with a History API fallback, mainly history.js then please let me know and I will update the documentation to reccommend it.
 
 
 ## Head
