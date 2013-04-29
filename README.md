@@ -16,7 +16,7 @@ Please post your feedback to let me know what you think! I'd love to know if you
 
 ##### N.B. gridify.js is currently untested with any History API polyfills. If you have any success using gridify.js with a History API fallback, mainly history.js then please let me know and I will update the documentation to reccommend it.
 
-###### Please note, the HTML5 History API will not work with local files and there for you must run your project on a server or run locally on MAMP or POW or somethign similar.
+###### Please note, the HTML5 History API will not work with local files and therefore you must run your project on a server or run locally on MAMP or POW or somethign similar.
 
 
 ## Head
